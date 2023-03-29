@@ -13,7 +13,7 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
         <init-param>
             <!-- Ustawiamy kontext aplikacji: -->
             <param-name>contextConfigLocation</param-name>
-            <param-value>/WEB-INF/mvccontext.xml</param-value>
+            <param-value>/webapp/WEB-INF/mvccontext.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
